@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+:root {
+    --fonte-titulo: 'Audiowide', cursive;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    background-color: rgba(211, 211, 211, 0.700);
+}
+.page-header {
+    padding-top: 3.5rem;
+}
+.page-header h1,.list h2{
+    font-family: var(--fonte-titulo);
+}
+.carousel-indicators button {
+    border-radius: 50%;
+}
+.gradient {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(200,0,255,0.6138830532212884) 0%, rgba(49,146,254,1) 100%, rgba(18,178,210,1) 100%);
+}
+.list {
+    padding-top: 5rem;
+    color: white;
+}
+.list p,.text p {
+    text-align: justify;
+    text-indent: 2rem;
+}
+.list .right {
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.list .left {
+    padding-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.social {
+    color: white;
+    border-radius: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 3rem;
+}
+.catalog, .about-page, .contact{
+    padding-top: 5rem;
+}
+.about-page .text {
+    background-color: white;
+}
+.contact {
+    color: white;
+}
